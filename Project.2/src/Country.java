@@ -35,6 +35,6 @@ public class Country {
 		for (int i = 0; i < subscriptions.length; i++) {
 			list += subscriptions[i].getNumberOfSubscriptions() + "\t";
 		}
-		return name + list;
+		return name + " " + list;
 	}
 }

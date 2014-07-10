@@ -57,6 +57,9 @@ public class TestCountry {
 		// You may format the data as you see fit as long as subscriptions follow year and it is readable.
 		// the output is:
 		// [your data table]
+		for(int i = 0; i < countries.length; i++){
+			System.out.println(countries[i]);
+		}
 		
 		System.out.printf("usa (1983 to 1989): %.2f \n\n", countries[0].getNumSubscriptionsForPeriod(1983,1989));
 		// the output is: usa (1983 to 1989): 2.66 
@@ -70,13 +73,13 @@ public class TestCountry {
 		//                        ERROR: Valid years are 2013 and 2020
 		//                        canada (2013 to 2020): -1.00 
 		
-		
+		/*
 		/////////////
 		// Data Set 2
 		//
 		System.out.println("Data Set 2:");
 
-		final String FILENAME = "data/cellular.csv";
+		final String FILENAME = "data\\cellular.csv";
 
 		CSVReader parser = new CSVReader(FILENAME);
 
@@ -112,5 +115,6 @@ public class TestCountry {
 		
 		System.out.printf(countryNames[200] + " (1960 to 2012): %.2f \n", countries[200].getNumSubscriptionsForPeriod(1960,2012));
 		// the output is: Singapore (1960 to 2012): 1582.80
+		 */
 	}
 }

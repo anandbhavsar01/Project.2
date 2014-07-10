@@ -1,0 +1,11 @@
+Data Set 1:
+canada 0.0	0.0	0.05	0.23	0.37	0.75	1.26	
+mexico 0.0	0.0	0.0	0.0	0.0	0.0	0.01	
+usa 0.0	0.0	0.14	0.28	0.5	0.83	1.39	
+usa (1983 to 1989): 1.40 
+
+mexico (1983 to 1989): 0.00 
+
+Error: Requested period between 2013 and 2020 is out of bounds
+Valid years are 1983 and 1989
+canada (2013 to 2020): -1.00 
