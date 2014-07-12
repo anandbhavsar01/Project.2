@@ -73,7 +73,6 @@ public class TestCountry {
 		//                        ERROR: Valid years are 2013 and 2020
 		//                        canada (2013 to 2020): -1.00 
 		
-		/*
 		/////////////
 		// Data Set 2
 		//
@@ -115,6 +114,5 @@ public class TestCountry {
 		
 		System.out.printf(countryNames[200] + " (1960 to 2012): %.2f \n", countries[200].getNumSubscriptionsForPeriod(1960,2012));
 		// the output is: Singapore (1960 to 2012): 1582.80
-		 */
 	}
 }
